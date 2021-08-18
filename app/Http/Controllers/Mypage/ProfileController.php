@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\Mypage\Profile\EditRequest;
+use Illuminate\Http\File;
 // use GuzzleHttp\Psr7\UploadedFile;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
