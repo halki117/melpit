@@ -45,7 +45,6 @@
                         </div>
                     </li>
 
-                    <i class="fas fa-check">ああああ</i>
                 @endguest
             </ul>
         </div>
