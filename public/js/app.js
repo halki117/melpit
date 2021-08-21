@@ -37343,18 +37343,15 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-document.querySelector('.image-picker input').addEventListener('change', function (e) {
-  var input = e.target;
-  var reader = new FileReader();
-
-  reader.onload = function (e) {
-    input.closest('.image-picker').querySelector('img').src = e.target.result;
-  };
-
-  reader.readAsDataURL(input.files[0]);
-});
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // document.querySelector('.image-picker input')
+// .addEventListener('change', (e) => {
+//     const input = e.target;
+//     const reader = new FileReader();
+//     reader.onload = (e) => {
+//         input.closest('.image-picker').querySelector('img').src = e.target.result
+//     };
+//     reader.readAsDataURL(input.files[0]);
+// });
 
 /***/ }),
 
