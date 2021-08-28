@@ -41,6 +41,7 @@ class CreateAppTables extends Migration
      */
     public function down()
     {
+        Schema::dropIfExists('secondary_categories');
         Schema::dropIfExists('primary_categories');
     }
 }
